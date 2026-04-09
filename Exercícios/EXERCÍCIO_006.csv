@@ -1,0 +1,5 @@
+Classe;Passo;Condição;Cobertos;Corretos (soft);Precisão;Cálculo;Regra parcial
+soft;1;tear = normal;12;6;06/dez;6 ÷ 12;tear = normal
+soft;2;+ astigmatism = no;6;4;04/jun;4 ÷ 6;tear = normal AND astigmatism = no
+soft;3;+ age = young;3;3;03/mar;3 ÷ 3;tear = normal AND astigmatism = no AND age = young
+soft;FINAL;—;—;—;—;—;IF tear = normal AND astigmatism = no AND age = young THEN soft
